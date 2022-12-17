@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/favicon.ico">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+}
+        @media (max-width: 768px) {
+            .section{
+                width: 100%;
+            }
+        }
+        .body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 14px;
+        }
+        .container{
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        .nav-list{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                list-style: none
+            }
+        .nav-link{
+            padding: 0 20px;
+            line-height: 50px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .section {
+            width: 45%;
+            padding: 10px; 
+            margin: 5px;
+        }
+        
+    </style>
+       
+</head>
+<body class="body">
+
+    <header class="header" style="background-color: rgb(108, 113, 108); border: 1px solid red;">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main" style="border: 1px solid red; background-color: aqua;">
+        
+        <div class="container">
+            <section class="section" id="avatar">
+                <img src="./assets/img/CVimg.jpg" alt="Avatar" width="300px" height="200px">
+            </section>
+
+            <section class="section" id="profile" style="width: 50%" align="right">
+                <h1 style="font-size: 40px">Vlad Vitko</h1>
+                <h2>JUNIOR FRONT-END DEVELOPER</h2>
+                
+            </section>
+
+            <section class="section"  id="contacts">
+            <h1>Contacts</h1>
+            <pre> 
+            Brest, Belarus
+            Email: <a href="mailto: volk43751@gmail.com">volk43751@gmail.com</a>
+            Github: <a href="https://github.com/psycho4375">psycho4375</a>
+            Telegram: <a href="https://t.me/volk43751">volk43751</a>
+            Discord: <a href="https://discord.gg/zUr7wWYPXE">psycho#9378</a>
+            </pre>
+            </section>
+            
+            <section class="section" id="summary">
+            <h2>Summary</h2>
+            I like programming. It's very interesting for me. I don't have any job right now, but i'll try my best to find a job. Nowdays i try to find a job after army surving and also start to learn JavaScript, HTML5 and CSS3, because i wanna work in this sphere and get a lot of experience in that case.
+            </section>
+            
+            <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web-development 
+                    <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Graphics: Figma</li>
+            </ul>
+            </section>
+            
+            <section class="section" id="code">
+            <h2>Code</h2>
+            <pre>
+                function factorial(n) 
+                {
+                    if(n < 0) return null; 
+                        if (n <=1) return 1; 
+                return n * factorial(n-1); 
+                }
+            </pre>
+            </section>
+            
+            <section class="section" id="courses">
+            <h2>Courses</h2>
+            <ul>    
+            <li>Rolling scopes school</li>
+            </ul>
+            </section>
+            
+            <section class="section"  id="education">
+            <h2>Education</h2> 
+            Brest State Technical Univesrity
+            </section>
+
+            <section class="section" id="english">
+            <h2>English</h2>
+            B1-Pre-intermediate
+            </section>
+        </div>
+    </main>
+    <footer class="footer" style="border: 1px solid red;background-color: rgb(49, 48, 48);">
+        <div class="container">
+            <section class="section" id="footer">
+                <nav>
+                    <ul style=" color: white;list-style-type: none;">
+                        <li>2022</li>
+                        <li><a href="https://github.com/psycho4375" style="color: aliceblue;">psycho4375</a></li>
+                        <li><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS school logo"></a></li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
