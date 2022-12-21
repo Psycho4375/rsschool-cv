@@ -62,7 +62,7 @@ ul.contacts li a{
 }
 .body{
     background-color: antiquewhite;
-    margin: 0;
+    margin: none;
 }
 .myimg{
     max-width: 300px;
