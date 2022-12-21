@@ -115,6 +115,9 @@ h3{
 }
 .footer{
     margin: none;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    margin-right: -8px;
     border-bottom: 10px solid rgb(173, 160, 160);
     border-top: 10px solid rgb(173, 160, 160);
     display: flex;
