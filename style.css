@@ -114,7 +114,7 @@ h3{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .footer{
-   
+    margin: none;
     border-bottom: 10px solid rgb(173, 160, 160);
     border-top: 10px solid rgb(173, 160, 160);
     display: flex;
